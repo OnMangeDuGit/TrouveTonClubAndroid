@@ -1,0 +1,31 @@
+{"lesJoueurs" : [
+    {
+        "nom_joueur": "RICHARD",
+        "prenom": "Gabriel",
+        "email": "gaby@hotmail.fr",
+        "num_tel": "06 45 96 16 45",
+        "cde_departement": "17240"
+    },
+    {
+        "nom_joueur": "GARNIER",
+        "prenom": "Remi",
+        "email": "RemFoot@hotmail.fr",
+        "num_tel": "07 45 23 11 09",
+        "cde_departement": "17240"
+    },
+    {
+        "nom_joueur": "MARTIN",
+        "prenom": "Martin",
+        "email": "MartinMartin@hotmail.com",
+        "num_tel": "05 67 76 45 23",
+        "cde_departement": "86000"
+    },
+    {
+        "nom_joueur": "EVRA",
+        "prenom": "Patrice",
+        "email": "EvraPatrice@gmail.fr",
+        "num_tel": "06 87 95 43 77",
+        "cde_departement": "58210"
+    }
+]
+}

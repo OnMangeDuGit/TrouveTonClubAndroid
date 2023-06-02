@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutAnnonce"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    android:backgroundTint="#F8F7F6">
+
+    <TextView
+        android:id="@+id/rcvttc2"
+        android:layout_width="414dp"
+        android:layout_height="65dp"
+        android:background="#FF9800"
+        android:text="TrouveTonClub"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button_prof"
+        android:layout_width="96dp"
+        android:layout_height="42dp"
+        android:background="#00E14D4D"
+        android:backgroundTint="#B62222"
+        android:text="Profils"
+        android:textColor="#100707"
+        app:cornerRadius="6dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rcvttc2"
+        app:layout_constraintEnd_toEndOf="@+id/rcvttc2"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="@+id/rcvttc2"
+        app:layout_constraintTop_toTopOf="@+id/rcvttc2"
+        app:layout_constraintVertical_bias="0.551"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button_creer_annonce"
+        android:layout_width="100dp"
+        android:layout_height="58dp"
+        android:background="#00888383"
+        android:backgroundTint="#B62222"
+        android:text="Créer Annonce"
+        android:textColor="#0C0606"
+        android:textSize="11sp"
+        app:cornerRadius="6dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rcvttc2"
+        app:layout_constraintEnd_toStartOf="@+id/button_prof"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="@+id/rcvttc2"
+        app:layout_constraintTop_toTopOf="@+id/rcvttc2"
+        app:layout_constraintVertical_bias="0.551"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvAnnonce"
+        android:layout_width="344dp"
+        android:layout_height="541dp"
+        android:layout_marginTop="28dp"
+        android:textSize="11sp"
+
+        android:dividerHeight="10.0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rcvttc2" />
+
+    <Button
+        android:id="@+id/retour_annonce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retour à L'acceuil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rcvAnnonce" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

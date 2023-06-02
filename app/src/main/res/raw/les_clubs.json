@@ -1,0 +1,31 @@
+{"lesClubs" : [
+    {
+        "nom_club": "Avenir de Saintonge",
+        "email_club": "AvsFoot@hotmail.fr",
+        "num_tel": "06 45 32 12 56",
+        "cde_departement": "17240",
+        "adresse_club": "Rue du Stade"
+    },
+    {
+        "nom_club": "UsPons",
+        "email_club": "UsPons@gmail.com",
+        "num_tel": "07 34 32 26 56",
+        "cde_departement": "17800",
+        "adresse_club": "Le Stade de Pons"
+    },
+    {
+        "nom_club": "La Berrichonne de Châteauroux",
+        "email_club": "AlaBerrichonneFoot@hotmail.fr",
+        "num_tel": "05 39 99 44 09",
+        "cde_departement": "36000",
+        "adresse_club": "10 allée Beaumarchais Châteauroux"
+    },
+    {
+        "nom_club": "AS Monaco",
+        "email_club": "AsMonaco@hotmail.fr",
+        "num_tel": "03 45 00 12 89",
+        "cde_departement": "98000",
+        "adresse_club": "7, avenue des Castelans"
+    }
+]
+}

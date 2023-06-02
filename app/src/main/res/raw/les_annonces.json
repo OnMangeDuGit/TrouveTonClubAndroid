@@ -1,0 +1,31 @@
+{"lesAnnonces" : [
+    {
+        "libelle": "Cherche Attaquant pointe",
+        "poste_recherche": "Attaquant centre",
+        "description": "Cherche joueur polyvalent avec la capacité de jouer pivot",
+        "salaire": "1200",
+        "club": "Avenir de Saintonge"
+    },
+    {
+        "libelle": "Cherche défenseur",
+        "poste_recherche": "Défenseur centre et latéral ",
+        "description": "Cherche joueur défensif qui a pour qualités : une bonne vision de jeu, rapide, bon passeur",
+        "salaire": "1900",
+        "club": "UsPons"
+    },
+    {
+        "libelle": "Cherche milieux polyvalents",
+        "poste_recherche": "Milieu central / défensif / offensif",
+        "description": "Recherche des milieux avec une bonne vision de jeu et très polyvalents sur le terrain.",
+        "salaire": "1700",
+        "club": "La Berrichonne de Châteauroux"
+    },
+    {
+        "libelle": "On passe par les ailiers",
+        "poste_recherche": "On passe par les ailiers",
+        "description": "Cherche ailiers gaucher et droitier avec les qualités suivantes :-Rapides,-Technique,-Un bon jeu sans ballon et Une bonne précision ",
+        "salaire": "4500",
+        "club": "AS Monaco"
+    }
+]
+}
